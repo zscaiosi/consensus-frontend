@@ -1,9 +1,63 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }
 
 form {
   width: 100%;
+}
+
+.tall-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+}
+
+.centered-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a, a:hover {
+  cursor: pointer;
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.description-text {
+  font-size: 18px;
+  text-justify: unset;
+  margin: 13px;
+  color: white;
+  font-weight: 800;
+}
+
+#criar-sala {
+  background-color: rgba(200, 10, 10, 0.4);
+}
+
+#entrar-sala {
+  background-color: rgba(10, 10, 200, 0.4);
+}
+
+.voltar-link:hover {
+  cursor: pointer;
 }
