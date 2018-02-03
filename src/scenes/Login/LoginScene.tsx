@@ -10,14 +10,14 @@ class Login extends React.Component {
 
   render(){
     return(
-      <div className="row centered">
-        <div className="col-md-5"></div>
-        <div className="col-md-3">
+      <div className="row centered tall-row">
+        <div className="col-sm-3"></div>
+        <div className="col-sm-6 d-flex flex-sm-column justify-content-center">
           <Switch>
             <Route exact path="/login" component={LoginPanel} />
           </Switch>
         </div>
-        <div className="col-md-5"></div>
+        <div className="col-sm-3"></div>
       </div>
     );
   }
